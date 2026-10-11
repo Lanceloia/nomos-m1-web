@@ -1,0 +1,13 @@
+# Judgments over offered attempts, not permission or a claim about hidden state.
+schema: m1.appraisal_preferences.v1
+definitions:
+  # A past floor check is not proof that a direct path is still clear. When the
+  # same public destination has a crossing attempt, delegate that alternative.
+  travel:
+    when: >
+      candidate.has_destination
+      and ((not candidate.was_tried and candidate.destination_new) or candidate.approaching_need or candidate.approaching_goal)
+      and (not local.floor_frozen or candidate.icy)
+      and not candidate.crossing_alternative
+  interrupt_observed_ritual:
+    when: local.ritual_active and candidate.has_targets and not candidate.was_tried

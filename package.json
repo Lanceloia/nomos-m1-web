@@ -1,0 +1,35 @@
+{
+  "name": "nomos-m1-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20.3" },
+  "scripts": {
+    "share": "node scripts/share.mjs",
+    "dev": "node scripts/dev.mjs",
+    "start": "node scripts/dev.mjs --preview",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run src/tabletop.test.ts src/client.test.ts",
+    "test:policy-ui": "vitest run src/policy-ui.test.ts -t 'personality consent and progress presentation|published action and stop detail presentation'",
+    "test:browser": "node scripts/check-browser.mjs",
+    "test:launcher": "node --test scripts/dev.test.mjs",
+    "check:preplay": "node scripts/preplay-check.mjs",
+    "check:preplay:layout": "node scripts/preplay-check.mjs --layout",
+    "test:bridge": "node scripts/test-bridge.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "playwright": "1.63.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}

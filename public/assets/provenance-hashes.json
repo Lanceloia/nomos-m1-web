@@ -1,0 +1,183 @@
+{
+  "source_revision": "715ebc7ad10cd3053b2d9f88d38b25a0070b8a3f",
+  "hash_algorithm": "SHA-256",
+  "prompt_hash_convention": "Markdown: UTF-8 fenced text body, excluding fences, preserving trailing newline. JSON: UTF-8 decoded prompt string. Original hashes precede private-path redaction; public hashes describe included text. Logical source identifiers are not bundled files.",
+  "assets": {
+    "public/assets/ballroom-board.png": "2ba1e19ed5251207687b2633be8156c56352064ffcf7de5fee741bb61b194ca0",
+    "public/assets/m1-noto-sans-sc-fallback.woff": "ba443256a8c7975272a3c23611886522afd6ba09485ac09a3b4d8b99b081d221",
+    "public/assets/palace-geographic-v1.png": "07ec8cafc3fe94fe9db7310c900a5087ffada2972ae74c5750d9bc90c90d35b3",
+    "public/assets/palace-geographic-v3.png": "07ca8439cda588bc315c796029f9803e2bccfa64d60032d275ca3340d52cc315",
+    "public/assets/scene-ballroom-v3.png": "8bd067d77bd16b2016d14d0568d62c23b5b1f30f7e8dbff93a22d3f583503973",
+    "public/assets/scene-ballroom.png": "082d6bc060dc53f837799686737f47c65fb6e26b8c1115a823d05961e3b64502",
+    "public/assets/scene-bridge-v3.png": "dcf9640b64e9f368d14708926ab4b2f94b99d81e36217d2a0beac6db8e8543cd",
+    "public/assets/scene-bridge.png": "85c71302e987764e7a4c89348cc93cbc5f5c9ad8f7e1b2af0926fcc89dfbce21",
+    "public/assets/scene-corridor-v3.png": "e9d40dfcf0a36cda213bcb2ccbc15e0b3b2792851cadc9c5cb5ffdcfa0d70297",
+    "public/assets/scene-corridor.png": "41f6efe5d201a0e2585178604f0f76cd1c90fe26fba743970e908b8ca148ec1d",
+    "public/assets/scene-icebar-v3.png": "8dffe61c256eacac886d5c9652b5c6c65f2b1f58554c76650a95eda242fb6495",
+    "public/assets/scene-lower-v3.png": "959a6ca6608a16f8d055d8d6fdc05020d1ca7d36c53f8fa8074538fe1ee29973",
+    "public/assets/scene-prison-v3.png": "96bab0ca31f5875512ce92b1faadbb61a4bc628ef8e18041540ec490d6bba779",
+    "public/assets/scene-ritual-v3.png": "f917b66ffa59e06342c589f16ac8f72649db5f8cebbc58786dac66c54b7dd5bb",
+    "public/assets/scene-stables-v3.png": "6ac3e0b6cb6e61b3a52836292ed5e15819af665b8e8615c7cf96fe587ad0725d",
+    "public/assets/scene-tower-base-v3.png": "1b06736ecc9d38422d55b40240a301dade2bd559b7b00b0e24f8d72f6dec2b20",
+    "public/assets/scene-tower-top-v3.png": "1e61b253247c66c871dfac5d2f6f07249a8f5a96e0f2498f03b220ab00a7a570",
+    "public/assets/scene-treasure-v3.png": "03fb3af6a820233a8ce7babab3baed86cb2f88ddfb344dabc8c260f264f755a8"
+  },
+  "prompts": [
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 1,
+      "original_prompt_sha256": "c24886aa99cec7cd37e1de5269eeb18e34af44b82092d545f6437da83180fbc8",
+      "public_prompt_sha256": "c24886aa99cec7cd37e1de5269eeb18e34af44b82092d545f6437da83180fbc8"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 2,
+      "original_prompt_sha256": "8f75cf7694e0cac21773d0d6149211e30857810a9c25b6c60d687c6c8ecdcf47",
+      "public_prompt_sha256": "8f75cf7694e0cac21773d0d6149211e30857810a9c25b6c60d687c6c8ecdcf47"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 3,
+      "original_prompt_sha256": "2cff91e1024c86783a46bcdd2e3c0d4a0f457d590fbb43e70667766d9770268e",
+      "public_prompt_sha256": "2cff91e1024c86783a46bcdd2e3c0d4a0f457d590fbb43e70667766d9770268e"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 4,
+      "original_prompt_sha256": "6753f84441e6b34dfca2562b72755e753d7715e73286d8975e0f0def5d6ed195",
+      "public_prompt_sha256": "6753f84441e6b34dfca2562b72755e753d7715e73286d8975e0f0def5d6ed195"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 5,
+      "original_prompt_sha256": "7cba12fb692ea5bddaf496df4d6660a375efe47bd4e0d95ba36082f793d9a86a",
+      "public_prompt_sha256": "7cba12fb692ea5bddaf496df4d6660a375efe47bd4e0d95ba36082f793d9a86a"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 6,
+      "original_prompt_sha256": "50a696989f00ab5a5837582b1debcc43b28eef8b20500f9372fb8969f88755f2",
+      "public_prompt_sha256": "50a696989f00ab5a5837582b1debcc43b28eef8b20500f9372fb8969f88755f2"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 7,
+      "original_prompt_sha256": "cba0abbbbfe252bf9cf18f93f89c16f7d28494ad3c8f96f25333b7492587b4d3",
+      "public_prompt_sha256": "cba0abbbbfe252bf9cf18f93f89c16f7d28494ad3c8f96f25333b7492587b4d3"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 8,
+      "original_prompt_sha256": "0e0882a4692965f05076305940f47ad0667d833062360068fec4b4cd76d29bbc",
+      "public_prompt_sha256": "0e0882a4692965f05076305940f47ad0667d833062360068fec4b4cd76d29bbc"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 9,
+      "original_prompt_sha256": "7d4684f9e59f2b18ad9b602817f99d5b158ff3ae527bd5d12c21b5ed5e3757c2",
+      "public_prompt_sha256": "7d4684f9e59f2b18ad9b602817f99d5b158ff3ae527bd5d12c21b5ed5e3757c2"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 10,
+      "original_prompt_sha256": "44b52df7e2820d7670fee2a55a844fc9b61a5599008ba7e26bf2d4a3bfd1a1ed",
+      "public_prompt_sha256": "44b52df7e2820d7670fee2a55a844fc9b61a5599008ba7e26bf2d4a3bfd1a1ed"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 11,
+      "original_prompt_sha256": "2aac2e4eef4f11d853eb178766507df5b9a7249474b96ec2bd2265c70d67c197",
+      "public_prompt_sha256": "2aac2e4eef4f11d853eb178766507df5b9a7249474b96ec2bd2265c70d67c197"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 12,
+      "original_prompt_sha256": "ac79f0675fc809a9294a3e16e4baf4d3913acd0b9d05510e9bd5223db9b02a6d",
+      "public_prompt_sha256": "ac79f0675fc809a9294a3e16e4baf4d3913acd0b9d05510e9bd5223db9b02a6d"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 13,
+      "original_prompt_sha256": "d72ee9fefbbec8ebc9a5a43ce4d4e094ca795648f71e4a19ca88a0b61645dfc1",
+      "public_prompt_sha256": "d72ee9fefbbec8ebc9a5a43ce4d4e094ca795648f71e4a19ca88a0b61645dfc1"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 14,
+      "original_prompt_sha256": "f839fb830c79f61e96425a98776794effcab05d2e9a3e8389dd43d144cdc9283",
+      "public_prompt_sha256": "f839fb830c79f61e96425a98776794effcab05d2e9a3e8389dd43d144cdc9283"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 15,
+      "original_prompt_sha256": "1dd6e764ed18ac815ba5a43bfc6f5106c7fa6ae81b51aa1d66a3f4ad2e02d07d",
+      "public_prompt_sha256": "1dd6e764ed18ac815ba5a43bfc6f5106c7fa6ae81b51aa1d66a3f4ad2e02d07d"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 16,
+      "original_prompt_sha256": "6fc5ea9b7357a7675709afcefdc6942594825c27c5aefd4d0269bd751acdf019",
+      "public_prompt_sha256": "6fc5ea9b7357a7675709afcefdc6942594825c27c5aefd4d0269bd751acdf019"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 17,
+      "original_prompt_sha256": "8cc2729cbda2ee1f4a02c06acaa5fa0202034cd98c9f02a0330d18a5e5fc9b9b",
+      "public_prompt_sha256": "8cc2729cbda2ee1f4a02c06acaa5fa0202034cd98c9f02a0330d18a5e5fc9b9b"
+    },
+    {
+      "document": "public/assets/SCENE_BACKGROUNDS_V3.md",
+      "ordinal": 18,
+      "original_prompt_sha256": "1e56c27566472ba18286371d66fb389a8c9c6757acad2887b3d95dd025b7872b",
+      "public_prompt_sha256": "c970b62b07a5150f63f61e7dbd26ee3c9d7e6e75a2e7766d8697ed9e4a0bc72a"
+    },
+    {
+      "document": "public/assets/MAP_ART_V3.md",
+      "ordinal": 1,
+      "original_prompt_sha256": "1e56c27566472ba18286371d66fb389a8c9c6757acad2887b3d95dd025b7872b",
+      "public_prompt_sha256": "c970b62b07a5150f63f61e7dbd26ee3c9d7e6e75a2e7766d8697ed9e4a0bc72a"
+    },
+    {
+      "document": "public/assets/PALACE_MAP_LICENSE.md",
+      "ordinal": 1,
+      "original_prompt_sha256": "534c9a862e78f09aff3d7b8e5f9fda964c48f532c979a530f15f8a8d2c4c202c",
+      "public_prompt_sha256": "534c9a862e78f09aff3d7b8e5f9fda964c48f532c979a530f15f8a8d2c4c202c"
+    },
+    {
+      "document": "public/assets/PALACE_MAP_LICENSE.md",
+      "ordinal": 2,
+      "original_prompt_sha256": "928ed977d887da4eed9b580f06c8310391446476d73b1c92508168e214134e7f",
+      "public_prompt_sha256": "928ed977d887da4eed9b580f06c8310391446476d73b1c92508168e214134e7f"
+    },
+    {
+      "document": "public/assets/scene-art-provenance.json",
+      "ordinal": 1,
+      "original_prompt_sha256": "9b757a0d5c6610a917f2e01972cdc78b0d9db41387dce51d63197cbb46ba96b6",
+      "public_prompt_sha256": "9b757a0d5c6610a917f2e01972cdc78b0d9db41387dce51d63197cbb46ba96b6"
+    },
+    {
+      "document": "public/assets/scene-art-provenance.json",
+      "ordinal": 2,
+      "original_prompt_sha256": "9ad833ee38e7b504c68fd78ce4c202cdf5b8cb35a11524fb00b73f30813727ec",
+      "public_prompt_sha256": "9ad833ee38e7b504c68fd78ce4c202cdf5b8cb35a11524fb00b73f30813727ec"
+    },
+    {
+      "document": "public/assets/scene-art-provenance.json",
+      "ordinal": 3,
+      "original_prompt_sha256": "288c22d15c3eeec1447e45545c462d6125dcfd18a7497e9151d04179dde7287d",
+      "public_prompt_sha256": "288c22d15c3eeec1447e45545c462d6125dcfd18a7497e9151d04179dde7287d"
+    },
+    {
+      "document": "public/assets/scene-art-provenance.json",
+      "ordinal": 4,
+      "original_prompt_sha256": "76cd9e1725e8d4cdb393c22e76bed0c37627e3b037044ba753a8320a9f68a14b",
+      "public_prompt_sha256": "76cd9e1725e8d4cdb393c22e76bed0c37627e3b037044ba753a8320a9f68a14b"
+    },
+    {
+      "document": "docs/ART.md",
+      "ordinal": 1,
+      "original_prompt_sha256": "f38ea6e38ea76c895e4c8431a1a35a8d7c16b3e466b07b441531b128e139aa79",
+      "public_prompt_sha256": "f38ea6e38ea76c895e4c8431a1a35a8d7c16b3e466b07b441531b128e139aa79"
+    }
+  ]
+}

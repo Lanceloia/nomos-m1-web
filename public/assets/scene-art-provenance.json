@@ -1,0 +1,34 @@
+{
+  "generator": "built-in image_gen; no CLI",
+  "reference": "design-reference/frozen-palace-desktop-concept.png",
+  "prompts": [
+    {
+      "asset": "public/assets/scene-ballroom.png",
+      "prompt": "Use case: stylized-concept. Asset type: a wide 16:9 static background painting for a desktop frozen-palace adventure game, not a UI mockup. Input image 1 is ONLY a visual style and camera reference; generate a new empty single-room background. Primary request: the interior of ONE tall palace ballroom seen from its entrance, close enough that it feels like a room the player stands in, not a dollhouse palace, castle exterior, world map or panoramic connected levels. Keep the reference's beautifully painted silver-white stone, teal shadows, frosted architectural surfaces, restrained antique gold, rich depth and cinematic polished fantasy game illustration. Camera: elevated three-quarter view from the entrance, floor spreading toward rear columns. Empty spacious central/lower floor for independent traveler and observation overlays; tall carved wall columns and cold pale windows at the sides, subtle weathered patterns. Ceiling cropped above frame. Light is diffuse cool daylight, not candles. Entire scene within one ballroom, no view into other rooms. Do not paint a chandelier: it will be a separate existing object sprite gated by actual player information. No people, creatures, player, NPCs, body silhouettes, statues shaped like people, tokens, treasure, furniture, text, symbols, UI, buttons, map, labels, numbers, visible flames, candles, torches, doorways, staircases, quest markers or additional passageways. Floor ornament must be abstract architectural texture, no magic glyph or ritual circle. Balanced detailed room composition, clear open lower-center floor, highest quality painterly game background. Nontransparent full image.",
+      "included": true
+    },
+    {
+      "asset": "public/assets/scene-corridor.png",
+      "prompt": "Use case: stylized-concept. Asset type: wide 16:9 single-location static background painting for a desktop frozen-palace adventure. Input image is style reference only: match its painterly high-detail silver-white frost, cold teal ambience and antique gold. Not a UI, not a world map. No text, labels, borders, game HUD, buttons, numbers, token, person, creature, human statue, flame, candle, torch, item, loot, quest marker, magic glyph or ritual emblem. No adjacent rooms or dollhouse cutaway. Leave the lower-center foreground empty for a separately overlaid traveler. Architectural details never declare interactive passages. Primary request: ONE interior segment of the palace's tall vaulted stone corridor, seen from inside at walking height with slight elevated three-quarter perspective. Frosted stone piers, subtle gold trim, cool reflected daylight, floor expanding into foreground. End the visible hall in a closed shadowed stone wall bay, not an open doorway. No staircase, additional doorway, ceiling chandelier or other room. Elegant, cold, enclosed spatial atmosphere, restrained floor ornament.",
+      "included": true
+    },
+    {
+      "asset": "public/assets/scene-bridge.png",
+      "prompt": "Use case: stylized-concept. Asset type: wide 16:9 single-location static background painting for a desktop frozen-palace adventure. Input image is style reference only: match its painterly high-detail silver-white frost, cold teal ambience and antique gold. Not a UI, not a world map. No text, labels, borders, game HUD, buttons, numbers, token, person, creature, human statue, flame, candle, torch, item, loot, quest marker, magic glyph or ritual emblem. No adjacent rooms or dollhouse cutaway. Leave the lower-center foreground empty for a separately overlaid traveler. Architectural details never declare interactive passages. Primary request: a close local view of ONE narrow frost-dusted stone footbridge above a deep blue-black chasm outside the palace. Seen from the bridge approach looking obliquely along its short visible span; low stone edges, faceted ice along stone, distant diffuse pale sky fading into mist. Bridge occupies the lower center and continues just beyond the frame, its destination not revealed. Only this small section of bridge and chasm, no castle, towers, buildings, doors, distant inhabitants or complete landscape topology. Dramatic vertical depth and readable stone surface.",
+      "included": true
+    },
+    {
+      "asset": "historical-source/traveler.png",
+      "prompt": "Use case: stylized-concept. Asset type: a single transparent full-body traveler character cutout for a layered desktop frozen-palace adventure, not a complete scene. Input image is camera, palette and painterly style reference only. One ordinary adult traveler in a plain burgundy cloak, modest dark tunic and worn boots, viewed from behind in three-quarter perspective, facing toward upper right. Face turned away, no identity requirements. Standing steady, full body and boots inside frame with generous transparent padding. Right forearm raised slightly with a gloved hand in a loose grip: do not paint any held object or light, we add the game's Everflame symbol as an independent UI layer. Detailed elegant hand-painted game art, cool silver-blue rim light, soft folds of burgundy cloth, restrained earth colors, sharp readable silhouette. Exactly one person, no second figure, no weapon, armor, backpack, crown, item, magic, flame, staff, torch, floor, room, scenic background, ground shadow, text, UI, frame or logo. Truly transparent alpha background, not a checkerboard painting.",
+      "transparent_background": true,
+      "included": false
+    }
+  ],
+  "invariants": [
+    "Illustrations confer no routes, heat, inventory or abilities",
+    "Only a known current site selects the art; no hidden room map",
+    "Targets are supplied exclusively by actual frame.offers",
+    "Character image is cosmetic, not identity or equipment evidence"
+  ],
+  "source_note": "Logical sources replace private machine paths; prompts retain original instructions."
+}

@@ -1,0 +1,7 @@
+node_modules
+dist/
+test-results/
+.vite/
+.venv/
+__pycache__/
+*.py[cod]

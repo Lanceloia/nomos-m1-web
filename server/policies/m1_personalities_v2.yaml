@@ -1,0 +1,18 @@
+# Application preferences, not world Laws or persistent Actor Mind.
+version: 2
+profiles:
+  cautious_investigator:
+    label: 谨慎调查者
+    description: 冰面通行前先检查脚下，再权衡调查、补能和探索；察觉仪式接近完成时优先应对。
+    max_actions: 64
+    weights: {floor: 140, routes: 130, person: 125, surroundings: 120, refill: 160, supplies: 90, help: 80, clear_path: 100, explore: 45, unknown: 15, ice: -35, approach: 20, memory_risk: -10, interrupt: 180, invite: 40, depart: 50, goal_route: 60}
+  helpful_rescuer:
+    label: 热心救援者
+    description: 优先了解并帮助眼前居民，准备永焰；没有可帮的人时沿可见通路寻找，不承诺护送或替别人作决定。
+    max_actions: 64
+    weights: {floor: 50, routes: 70, person: 150, surroundings: 100, refill: 180, supplies: 140, help: 200, clear_path: 60, explore: 30, unknown: 10, ice: -20, approach: 120, memory_risk: -15, interrupt: 250, invite: 160, depart: 20, goal_route: 60}
+  decisive_explorer:
+    label: 果断探索者
+    description: 沿已知目标方向果断前进，优先于顺手调查；愿意尝试当前可选的冰面通行，需要时补能。
+    max_actions: 64
+    weights: {floor: 15, routes: 25, person: 0, surroundings: 0, refill: 160, supplies: 50, help: 60, clear_path: 25, explore: 120, unknown: 30, ice: 15, approach: 10, memory_risk: -5, interrupt: 150, invite: 20, depart: 120, goal_route: 140}

@@ -1,0 +1,45 @@
+# Application goals over the public map, not World Laws or a fixed route.
+schema: m1.public_planning.v1
+goals:
+  find_ritual:
+    label: 沿已知仪式方向寻找线索
+    selector: {frontier: {only_sites: [ritual_passage_entry, ritual_threshold, ritual_ring]}}
+    when: progress.ritualDisrupted == 0 and not knowledge.ritual_active and not knowledge.ritual_dangerous and not knowledge.ritual_disrupted
+    gains: {visitedPlaces: 1}
+    feature: explore
+    preferences: {cautious_investigator: 1000, helpful_rescuer: 1000, decisive_explorer: 1000}
+  interrupt:
+    label: 寻找中断仪式的机会
+    selector: {sites: [ritual_ring]}
+    when: progress.ritualDisrupted == 0 and knowledge.ritual_active
+    gains: {ritualDisrupted: 1}
+    feature: interrupt
+    preferences: {cautious_investigator: 1000, helpful_rescuer: 1000, decisive_explorer: 1000}
+  help:
+    label: 接近已知受困者
+    selector: {observation: {kind: person, state: frozen}}
+    when: true
+    gains: {peopleThawed: 1, knownChargeSpent: 1}
+    feature: help
+    preferences: {cautious_investigator: 0, helpful_rescuer: 300, decisive_explorer: 0}
+  depart:
+    label: 寻找离宫的机会
+    selector: {sites: [palace_exit]}
+    when: true
+    gains: {departed: 1}
+    feature: depart
+    preferences: {cautious_investigator: 0, helpful_rescuer: 0, decisive_explorer: 0}
+  explore:
+    label: 探查尚未抵达的区域
+    selector: {frontier: {exclude_sites: [bridge_palace_landing, bridge_midspan, palace_exit]}}
+    when: progress.visitedPlaces < 5 and not knowledge.ritual_dangerous
+    gains: {visitedPlaces: 1}
+    feature: explore
+    preferences: {cautious_investigator: 50, helpful_rescuer: 0, decisive_explorer: 0}
+  find_exit:
+    label: 沿已知桥路寻找外岸
+    selector: {frontier: {only_sites: [halls_ballroom_door, halls_bridge_door, bridge_palace_landing, bridge_midspan, palace_exit]}}
+    when: progress.visitedPlaces >= 5 or knowledge.ritual_dangerous or knowledge.ritual_disrupted
+    gains: {visitedPlaces: 1}
+    feature: explore
+    preferences: {cautious_investigator: 20, helpful_rescuer: 20, decisive_explorer: 20}
